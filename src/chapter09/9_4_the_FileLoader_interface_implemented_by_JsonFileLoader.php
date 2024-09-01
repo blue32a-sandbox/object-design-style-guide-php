@@ -21,7 +21,7 @@ final class JsonFileLoader implements FileLoader
 
         if (!is_array($result)) {
             throw new RuntimeException(
-                `Decoding "{$filePath}" did not result in an array`
+                "Decoding \"{$filePath}\" did not result in an array"
             );
         }
 
